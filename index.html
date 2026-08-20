@@ -1,0 +1,269 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitacion Lya Hiromi</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+  </head>
+
+  <body class="center">
+    <!-- SOBRE DE BIENVENIDA -->
+    <div class="envelope-screen" id="envelopeScreen">
+      <div class="envelope">
+        <div class="envelope-flap"></div>
+
+        <!-- Flap inferior -->
+        <div class="wax-seal" id="openEnvelope"></div>
+      </div>
+    </div>
+
+    <div class="invitation-content hidden" id="invitationContent">
+      <!-- TODO tu contenido actual -->
+
+      <div class="content">
+        <section class="section-home">
+          <div class="home-content">
+            <img class="home-img" alt="photo" src="./assets/img/1 (6).jpg" />
+            <div class="titulo">
+              <h1>Presentación</h1>
+              <h2>Lya Hiromi</h2>
+            </div>
+          </div>
+        </section>
+
+        <section class="musica">
+          <div class="music-card">
+            <div class="song-title"></div>
+            <div class="artist-name"></div>
+
+            <button class="play-button" id="playPauseBtn">▶</button>
+
+            <div class="progress-container">
+              <div class="progress" id="progressBar"></div>
+            </div>
+
+            <audio
+              id="audioPlayer"
+              src="./assets/music/Christina Perri - A Thousand Years.mp3"
+            ></audio>
+            <!-- Cambia por tu archivo mp3 -->
+          </div>
+        </section>
+
+        <div class="img-separador">
+          <img
+            src="./assets/img/WhatsApp Image 2026-08-12 at 4.37.24 PM.jpeg"
+            alt="separador"
+          />
+        </div>
+
+        <div class="palabras">
+          <p>
+            Hoy tenemos la alegría de presentarles a nuestra hermosa niña, quien
+            con su dulzura, inocencia y alegría ilumina cada día de nuestras
+            vidas.
+            <br /><br />
+            Que Dios bendiga siempre su camino y conserve en su corazón esa luz
+            tan especial que la hace única.
+          </p>
+          <small>Con todo nuestro amor, sus papás</small>
+        </div>
+
+        <section class="section-info">
+          <div class="overlay-section-info">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="box-info">
+            <div class="info-primary">
+              <div class="sociedad">
+                <img style="width: 80px" src="./assets/img/icon.png" alt="" />
+                <h1>Lady Whistledown's</h1>
+                <h2 class="sub">SOCIETY PAPERS</h2>
+              </div>
+
+              <p>
+                QUERIDOS LECTORES <br />
+                SI LOS RUMORES SON CIERTOS, <br />
+                EN POCOS DIAS
+              </p>
+            </div>
+
+            <div class="padres">
+              <ul>
+                <li>Alyne Yamile Cruz Gonzalez y</li>
+                <li>Francisco Emmanuel Gonzalez Arreola</li>
+              </ul>
+            </div>
+
+            <div class="frase-p">
+              <p>
+                no escatimarán en gastos en lo que promete será una celebración
+                que dará mucho de que hablar
+              </p>
+            </div>
+
+            <div class="frase-l">
+              <h1>La presentación</h1>
+              <p>de su adorada hija</p>
+            </div>
+
+            <div class="nombre">
+              <h2>Lya Hiromi</h2>
+              <h3>Gonzalez Cruz</h3>
+            </div>
+
+            <div class="padrinos">
+              <p>Junto a sus padrinos</p>
+              <h2>
+                Angeles Gonzalez Hernandez y <br />
+                Mario Vasquez Ortiz
+              </h2>
+            </div>
+
+            <div class="fecha">
+              <p>la majestuosa celebración se realizará el día</p>
+            </div>
+
+            <div class="date-box">
+              <h2 class="dia">SÁBADO</h2>
+              <h1>24/10/2026</h1>
+              <h2 class="hora">a las 17:00 hrs</h2>
+            </div>
+          </div>
+        </section>
+
+        <div class="timer">
+          <h1 class="timer-titulo">Solo faltan:</h1>
+          <ul class="date-time">
+            <li>
+              <div class="time_number" id="dias"></div>
+              <div class="time_txt">Días</div>
+            </li>
+            <li>
+              <div class="time_number" id="horas"></div>
+              <div class="time_txt">Horas</div>
+            </li>
+            <li>
+              <div class="time_number" id="minutos"></div>
+              <div class="time_txt">Minutos</div>
+            </li>
+            <li>
+              <div class="time_number" id="segundos"></div>
+              <div class="time_txt">Segundos</div>
+            </li>
+          </ul>
+        </div>
+
+        <section class="section-place">
+          <div class="box-place">
+            <div class="place-info center">
+              <img
+                width="75"
+                src="./assets/icons/church.svg"
+                alt="church"
+                fill="#000000"
+              />
+              <div class="place-txt">
+                <h2>Ceremonia</h2>
+                <p>
+                  <b>17:00 hrs</b> Parroquia inmaculada concepción Calle Nte. 15
+                  1284, Concepción, 56615 Xico, Méx.
+                </p>
+              </div>
+            </div>
+            <a
+              class="place-btn"
+              href="https://maps.app.goo.gl/QyPXGuDxv5nnxZoM6"
+              target="_blank"
+            >
+              VER UBICACIÓN
+            </a>
+          </div>
+        </section>
+
+        <section class="section-place-salon">
+          <div class="box-place-salon">
+            <div class="place-info center">
+              <img width="120" src="./assets/icons/bola.png" alt="disco" />
+              <div class="place-txt fiesta">
+                <h2>Recepción</h2>
+                <p>
+                  <b>18:00 hrs</b> calle norte 12, mz 1333, lote 7, colonia
+                  maria isabel
+                </p>
+              </div>
+            </div>
+            <a
+              class="place-btn"
+              href="https://maps.app.goo.gl/YqyBXSAktZj7HWZo7"
+              target="_blank"
+            >
+              VER UBICACIÓN
+            </a>
+          </div>
+        </section>
+
+        <section class="section-galeria">
+          <section class="section-info-adicional">
+            <div class="info-block info-clothes">
+              <img height="70" src="./assets/icons/Clothes.svg" alt="clothes" />
+              <h2>Vestimenta</h2>
+              <p>Se invita a vestir como mejor consideren para la ocasión.</p>
+            </div>
+
+            <div class="info-separator">
+              <img
+                width="200"
+                src="./assets/img/separador.png"
+                alt="separator"
+              />
+            </div>
+
+            <div class="info-block info-envelope">
+              <img
+                width="70"
+                src="./assets/icons/envelope.svg"
+                alt="envelope"
+              />
+              <h2>Mesa de regalos</h2>
+              <p>
+                La presencia de nuestros distinguidos invitados es el mayor
+                honor. Si desean ofrecer un presente, será recibido con aprecio.
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <section class="section-message">
+          <div class="box-message">
+            <p>
+              Los mejores momentos de la vida <br />
+              merecen ser compartidos
+            </p>
+            <b>¡Gracias por acompañarnos!</b>
+            <button class="confirmar">
+              <a href="https://wa.link/nl5pqs"> Confirmar asistencia </a>
+            </button>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+          Diseñado por
+          <a
+            href="https://www.facebook.com/profile.php?id=61568997140138"
+            target="_blank"
+            >Mirai</a
+          >
+          @2025, Todos los derechos reservados.
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
